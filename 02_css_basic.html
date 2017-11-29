@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2.oldal</title>
+</head>
+<body>
+  
+<a href="index.html">Vissza az előző oldalra.</a>
+        
+<h1>CSS Alapok</h1>
+
+<div style='color: blue'>ez egy kék szöveg</div>
+
+<p>
+ 1. inline style, a követkeuo div-nrk a kék betűszint állítunk be
+</p>
+
+<p>2. ez is egy inline style, csak több csss property-t adtumk meg</p>
+<div style="background-color: #5e7f0c; 
+            height: 300px;    
+            text-align: center; 
+            color: aqua"
+    >Ez egy foszöld doboz, inline style-al kiszinezve</div>
+
+<p>3. css class: 'pirosdiv' css classal ellátott html ele, megkapja a style tag-ben lévő .pirosdiv összers css property-t</p>
+
+<div class="pirosdiv">Ez egy piros div.</div>
+
+<div class="pirosdiv">asdas Ez egy piros div.</div>
+<div id="lekerekitett">ennek a szele le van keritve.</div>
+
+<style>
+/* ez egy css comment.*/
+
+/* a pirosdiv class-al ellátott html elemekre az alábbi tulajdonságok vonatkoznak:*/
+    
+    .pirosdiv { 
+        background-color: red;
+        height: 120px;
+        text-align: center;
+        padding-top: 70px;
+                }
+    #lekerekitett {
+        padding: 30px;
+        margin-top: 20px ;
+        background-color: black;
+        border-radius: 20px;
+        color: white;
+        height: 300px;
+    }
+
+</style>
+
+
+</body>
+</html>
