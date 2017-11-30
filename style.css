@@ -1,0 +1,41 @@
+/*csslint order-alphabetical: false*/
+.fo-menu {
+    height: 80px;
+    background-color: aqua;
+    
+}
+
+.menupont {
+    height: 40px;
+    
+/*    körbe mindfen hol 10px a margin*/
+/*    margin: 10px;*/
+    
+/*    margin-bottom: 10px;*/
+/*    margin-left: 10px;*/
+/*    margin-top: 10px;*/
+    
+/*    az előző 3 sor röviden*/
+    
+    margin: 10px 0 10px 10px; /*    fölül, jobbra, alul, balra*/
+    
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    
+/*    padding-top: 22px;*/
+/*    padding-left: 10px;*/
+/*    padding-right: 10px;*/
+/*    padding-bottom: 0;*/
+    
+/*    az előző 3 sor röviden*/
+    
+    padding: 22px 10px 0 10px; /*    fölül, jobbra, alul, balra*/
+    
+}
+
+
+.tartalom {
+    background-color: lightgray;
+    height: 1000px;
+}
